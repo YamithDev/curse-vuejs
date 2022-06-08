@@ -1,0 +1,252 @@
+.fondoIndex{
+	background-image: url('../img/fondoLog.jpg');
+	background-size: cover; 
+	background-position: top center;
+	z-index: -1;
+	filter: blur(0px);
+	width: 100%;
+	position: absolute;
+}
+
+#contenedor{
+	z-index:3;
+}
+
+.nav-left li a{
+	color: #333 !important;
+	font-weight: bold;
+}
+
+.form-group-2{
+	color: #333 !important;
+	font-weight: bold;
+	font-size: 	1em;
+}
+
+textarea{
+	resize: none;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-corner {
+     background-color: #756F6F;
+}
+::-webkit-scrollbar-thumb {
+     background-color: #238276;
+}
+
+#img_1{
+	/*	Letra C	 */
+	position: absolute;
+	z-index: 1;
+	top:30%;
+	left: 20%;
+	width: 60%;
+	display: block;
+	animation-duration: 0.5s;
+}
+#img_2{
+	/*	Letra O */
+	position: absolute;
+	z-index: 2;
+	top:30%;
+	left: 20%;
+	width: 60%;
+	display: block;
+	animation-duration: 0.8s;
+}
+#img_3{
+	/*	Letra P	 */
+	position: absolute;
+	z-index: 3;
+	top:30%;
+	left: 20%;
+	width: 60%;
+	display: block;
+	animation-duration: 0.9s;
+}
+#img_4{
+	/*	Letra A	 */
+	position: absolute;
+	z-index: 4;
+	top:30%;
+	left: 20%;
+	width: 60%;
+	display: block;
+	animation-duration: 1s;
+}
+#img_5{
+	/*	Letra G */
+	position: absolute;
+	z-index: 5;
+	top:30%;
+	left: 20%;
+	width: 60%;
+	display: block;
+	animation-duration: 1.5s;
+}
+#img_6{
+	/*	Letra -> */
+	position: absolute;
+	z-index: 6;
+	top:30%;
+	left: 20%;
+	width: 60%;
+	display: block;
+	animation-duration: 2s;
+}
+
+.card-canvas{
+	box-shadow: 10px 10px 5px !important;
+}
+
+.ir-arriba{
+	display: none;
+	padding: 20px;
+	background: #2FA0DB;
+	opacity: 0.7;
+	font-size: 28px !important;
+	color:#fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+}
+
+.terminados{
+	background: #2fa0db;
+  border-radius: 4px;
+  color: white;
+  padding: 2px;
+  margin: 5px;
+    
+}
+
+.terminados:hover{
+	cursor: pointer;
+  box-shadow: 0 14px 26px -12px rgba(0, 188, 212, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 188, 212, 0.2);
+}
+
+.btn-success2{
+	background-color:rgb(89,181,72);
+}
+
+.btn-success2:hover{
+	background-color:rgba(89,181,72, 0.42);
+}
+
+.btn-success2:active {
+  background-color: transparent;
+  color: #f44336;
+}
+
+.clockdate-wrapper {
+  background-color: #333;
+  padding:25px;
+  width:100%;
+  text-align:center;
+  border-radius:5px;
+  margin:0 auto;
+  margin-top:15%;
+}
+
+#clock{
+  background-color:#333;
+  font-family: sans-serif;
+  font-size:40px;
+  text-shadow:0px 0px 1px #fff;
+  color:#fff;
+}
+#clock span {
+  color:#04f12e;
+  font-size:25px;
+  position:relative;
+  top: -5px;
+  left:-10px;
+}
+
+#clock span:hover {
+  -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+  animation: neon4 1.5s ease-in-out infinite alternate;
+}
+
+#date {
+  letter-spacing:10px;
+  font-size:14px;
+  font-family:arial,sans-serif;
+  color:#fff;
+}
+
+@-webkit-keyframes neon4 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+  }
+}
+.nav .nav-item {
+    position: relative;
+}
+
+.nav-link{
+	padding:.5321rem;
+	font-size:.875rem;
+	font-weight:400;
+}
+
+.notification{
+  position: absolute;
+  top: 5px;
+  border: 1px solid #FFF;
+  right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #F49F36;
+  color: #FFF;
+  min-width: 20px;
+  padding: 0 5px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 19px;
+  vertical-align: middle;
+  display: block;
+}
+
+.botonProduc{
+	font-size: 16px !important;
+	color:#3d3d3d;
+	font-weight: bold !important;
+	background-color: #d6d6d6 !important;
+	background:
+    radial-gradient(at 50% 0, #c0bdbd, transparent 70%),
+    linear-gradient(0deg, #595858, transparent 50%) bottom;
+	border: 2px solid white;
+}
+
+.card .material-icons .icon-big {
+  font-size: 5em;
+}
+
+.icon-warning {
+  color: #F3BB45;
+}
+
+.botonProduc:hover{
+	color:#909091;
+}
+
+@media screen and (min-width: 800px) and (max-width: 600px) {
+ .clockdate-wrapper {
+  background-color: #333;
+  padding:25px;
+  max-width:80px;
+  width:100%;
+  text-align:center;
+  border-radius:5px;
+  margin:0 auto;
+  margin-top:15%;
+}
